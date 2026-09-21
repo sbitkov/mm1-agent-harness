@@ -1,0 +1,69 @@
+﻿# --- Copyrighted / user-provided game material ---
+game/
+player/reference/
+player/maps/
+
+# --- Saves and emulator state ---
+saves/
+*.sav
+*.state
+*.state.*
+
+# --- Runtime state ---
+control/
+debug/
+logs/
+player/logs/
+player/ipc/
+player/journal/
+
+# --- Python cache / environments ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# --- Local research artifacts / dumps ---
+*.bin
+*.dmp
+*.dump
+*.raw
+*.tmp
+
+# --- Backup / exploratory source snapshots ---
+*.before-*
+*.before_*
+*.bak
+
+# --- Ghidra local project database ---
+ghidra/project/
+
+# Keep Ghidra scripts and human-readable research output/notes
+# ghidra/scripts/
+# ghidra/output/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Local work directories ---
+.work/
+
+# --- Windows shortcuts ---
+*.lnk
+
+# --- User-provided reference material ---
+reference/
+
+# --- Local DOSBox configuration ---
+dosbox-mm1.conf
+dosbox-x-mm1.conf
+
+# --- Reverse-engineering workspace ---
+ghidra/
+
+# --- Local research notes / experiment artifacts ---
+notes/
