@@ -1,0 +1,19 @@
+This is a ai-agent research project in the game might and magic 1: secret of the inner sanctum.
+
+nb: it uses modified fork of dosbox-x: https://github.com/sbitkov/dosbox-x-mm1-agent
+
+What it does: it reads state output from dosbox-x, then normalizes it into json object that is readable by ai-agent, thus providing game-agent console line interface.
+It defines "avaliable state" as such: any information that human player can get without spending ingame resources, such as:
+any text output of the game, state of the party (in any moment of time), visual geometry of the game (3 tiles of visibility)
+
+Then the agent can act on its own, playing the game either as it feels, or according to prompt.
+
+goal: to study the agent behaviour in game enviorment, where game is:
+1) big enough
+2) cryptic enough
+3) reference is scarce (I provided both oficial map and manual)
+4) deep enough
+5) open enough
+6) Fully turn-based, so agent could think between inputs
+7) easy enough to make game-agent cli-interface.
+Initially I wanted to use darkest dungeon 2 as testing grounds (perhaps I'll do so in the future), but I've decided to test it first on 40years old game.
