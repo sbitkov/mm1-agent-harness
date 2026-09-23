@@ -18,5 +18,10 @@ goal: to study the agent behaviour in game environment, where game is:
 7) easy enough to make game-agent cli-interface.
 Initially I wanted to use darkest dungeon 2 as testing grounds (perhaps I'll do so in the future), but I've decided to test it first on 40years old game.
 
+Usage:
+1) Build and launch the game from modified doxbox-x (link above)
+2) Run broker.py
+3) give you agent a prompt that lets it to run game-cli.py
+
 demo:
 <img width="1120" height="799" alt="изображение" src="https://github.com/user-attachments/assets/08810eb5-a36f-407b-8eae-5a95b0a8b243" />
